@@ -1,5 +1,6 @@
 <template>
     <div>
+        <body>
         <form @submit.prevent="submitForm" class="form-control">
         <label for="fname">FirstName:</label>
         <input name="firstName" type="text" v-model="newUser.firstName" /> <br>
@@ -11,6 +12,7 @@
         <input name="password" type="text" v-model="newUser.password" /> <br>
         <button type="submit">Ekle</button>
         </form>
+        </body>
     </div>
 </template>
 
@@ -43,7 +45,7 @@
 
 <style scoped>
 .form-control{
-    display: inline-block;
+    display:inline-table;
     margin-right: 1200px;
 }
 .email{

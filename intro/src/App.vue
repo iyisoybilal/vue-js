@@ -3,7 +3,6 @@
   <HelloWorld msg="User List"/>
   <userList />
   <userAdd />
-  <userDelete/>
   </div>
 </template>
 
@@ -11,7 +10,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import userList from './components/userList.vue'
 import userAdd from './components/userAdd.vue'
-import userDelete from './components/userUpdate.vue'
+
 
 
 export default {
@@ -20,7 +19,6 @@ export default {
     HelloWorld,
     userList,
     userAdd,
-    userDelete
   }
 }
 </script>
